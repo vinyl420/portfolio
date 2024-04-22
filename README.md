@@ -1,2 +1,2 @@
-# portfoliohtml
-Hey! I made this solely in HTML and css :D
+# portfolio
+Hey! I made this!
