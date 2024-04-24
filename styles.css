@@ -12,32 +12,6 @@
     margin-top: 0px;
 }
 
-.topnav {
-    background-color: #71525C;
-    overflow: hidden;
-  }
-
-.topnav a {
-    display: inline-block;
-    margin-left: 315px;
-    font-family: 'Roboto', sans-serif;
-    color: #F9F6F0;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-.topnav a:hover {
-    background-color: #B392AC;
-    color: black;
-}
-  
-.topnav a.active {
-    background-color: #B392AC;
-    color: #F9F6F0;
-}
-
 .material-symbols-outlined {
     display: flex;
     vertical-align: -5px;
@@ -126,13 +100,14 @@ hr {
     margin-right: auto;
 }
 
-.active {
+.activegallery {
     scroll-snap-type: unset;
 }
 
-li {
+#galleryli {
     scroll-snap-align: center;
     display: inline-block;
     border-radius: 3px;
     font-size: 0;
+    list-style-type: none;
 }
