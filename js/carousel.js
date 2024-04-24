@@ -5,17 +5,17 @@ let scrollLeft;
 
 slider.addEventListener('mousedown', e => {
   isDown = true;
-  slider.classList.add('active');
+  slider.classList.add('activegallery');
   startX = e.pageX - slider.offsetLeft;
   scrollLeft = slider.scrollLeft;
 });
 slider.addEventListener('mouseleave', _ => {
   isDown = false;
-  slider.classList.remove('active');
+  slider.classList.remove('activegallery');
 });
 slider.addEventListener('mouseup', _ => {
   isDown = false;
-  slider.classList.remove('active');
+  slider.classList.remove('activegallery');
 });
 slider.addEventListener('mousemove', e => {
   if (!isDown) return;
