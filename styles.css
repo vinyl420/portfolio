@@ -124,3 +124,10 @@ hr {
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
+
+.carousel-inner {
+    overflow: hidden;
+    position: relative;
+    min-height: var(--carousel-height);
+    border-radius: var(--carousel-height);
+}
