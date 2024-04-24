@@ -6,6 +6,10 @@
     padding-right: 5px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 hr {
     border: 1px solid #71525C;
     width: 60%;
