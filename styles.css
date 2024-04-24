@@ -220,3 +220,22 @@ hr {
     color: var(--carousel-prev-next-btn-color);
     background-color: var(--carousel-prev-next-btn-bg);
 }
+
+.carousel-btn--prev-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.1s ease-in-out;
+}
+
+.carousel-btn--prev-next:hover {
+    transform: translateY(-50%) scale(1.2);
+}
+
+.carousel-btn--prev {
+    left: var(--carousel-inner-spacing);
+}
+
+.carousel-btn--next {
+    right: var(--carousel-inner-spacing);
+}
