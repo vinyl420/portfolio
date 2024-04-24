@@ -1,10 +1,9 @@
 # portfolio
 Hey! I made this!
 
-Languages I used: HTML, CSS.
+Languages I used: HTML, CSS, JS.
 
 TBA (js):
-Image carousel,
 Interactive navbar,
 Validative contact form,
 Smooth scrolling (? maybe),
